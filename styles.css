@@ -1,0 +1,65 @@
+body{
+    color: white;
+    background-image: url("https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.center-container {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#p1
+{
+     font-family: "consolas";   
+}
+#p2
+{
+     font-family: "consolas";   
+}
+.email
+{
+    background-color: black;
+}
+.button
+{
+    background-color: red;
+}
+.image
+{
+    left: 50%;
+    transform: translateX(10%);
+}
+.language {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and select box */
+}
+
+.language i {
+    font-size: 20px; /* Adjust icon size */
+    color: #333; /* Icon color */
+}
+
+select {
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    background-color: black; /* Change background color */
+    color: white; /* Text color */
+    padding: 5px;
+    border: 1px solid red;
+    appearance: none; /* Removes default browser styling */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.butt{
+    background-color: red;
+}
+.sign{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
